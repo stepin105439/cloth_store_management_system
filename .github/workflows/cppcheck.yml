@@ -8,7 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         
+      - name: Install math library
+        run: sudo apt-get install -y libmath-libm-per1 
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
-      - name: Cppcheck code
-        run: cppcheck Cloth_Store_Management_System/3_Implementation 
+      - name: Cppcheck code 
+        run: cppcheck 
