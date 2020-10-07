@@ -1,1 +1,1 @@
-# cloth_store_management_system
+![cppcheck-action](https://github.com/stepin105439/cloth_store_management_system/workflows/cppcheck-action/badge.svg)
